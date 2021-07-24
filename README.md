@@ -1,3 +1,3 @@
 # DocC
 
-A description of this package.
+Simple Example for learning DocC
