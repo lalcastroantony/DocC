@@ -1,6 +1,13 @@
+//
+//  File.swift
+//  File
+//
+//  Created by lal-7695 on 24/07/21.
+//
+
 /// DocC struct contains all type of examples for explaining how to add documentation
 
-public struct DocC {
+public struct DocCDuplicated {
     
     /// variable description to explain ETHUKKU!
     public private(set) var text = "Hello, DocC!"
@@ -25,15 +32,21 @@ public struct DocC {
     
     /// This function will accept two parameters and returns a value.
     ///
-    /// Add some overview of this function if you want. I can link to some other doc too. see ``descriptionExample()``
+    /// Add some overview of this function if you want.
     /// - Parameters:
-    ///   - parameter1: Some ``DocCDuplicated`` object
+    ///   - parameter1: Some string value
     ///   - parameter2: Another string value
     /// - Returns: This function will return a value of a type String
     /// - Throws: This function can throw some error. Better catch it.
     ///
     /// DocC supports a single Throws section. Including more than one section results in undefined behavior.
-    public func someFunctionWithParameter(param1: DocCDuplicated, param2: String) throws -> String {
+    public func someFunctionWithParameter(param1: String, param2: String) throws -> String {
         return "someStringValue"
     }
+}
+
+public struct Sloth {
+    public enum Color { }
+    
+    public var color: Color
 }
