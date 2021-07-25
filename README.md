@@ -2,7 +2,7 @@
 
 ## Why commenting is must?
 
-The time we spend reading the code is over 10x more than writing it. This article explains Why do ne need to use Documentation?
+The time we spend reading the code is over 10x more than writing it. This article explains Why do ne need to use Documentation.
 
 
 ## Overview
